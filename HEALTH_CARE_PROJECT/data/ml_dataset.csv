@@ -1,0 +1,13 @@
+fever,cough,headache,fatigue,vomiting,diarrhea,body_pain,chills,nausea,weight_loss,high_sugar,chest_pain,shortness_of_breath,disease
+1,1,1,1,0,0,1,1,0,0,0,0,0,Flu
+1,1,0,1,0,0,0,0,0,0,0,0,0,Cold
+0,0,1,0,1,0,0,0,1,0,0,0,0,Migraine
+0,0,0,1,1,1,1,0,0,0,0,0,0,Food Poisoning
+1,0,1,1,0,0,1,1,0,0,0,0,0,Flu
+1,1,0,0,0,0,0,0,0,0,0,0,0,Cold
+0,0,1,0,1,0,0,0,1,0,0,0,0,Migraine
+0,0,0,1,1,1,1,0,0,0,0,0,0,Food Poisoning
+1,1,1,1,0,0,1,1,0,0,0,0,0,Flu
+1,0,0,1,0,0,0,0,0,0,0,0,0,Cold
+0,0,0,0,0,0,0,0,0,1,1,0,0,Diabetes
+0,0,0,0,0,0,0,0,0,0,0,1,1,Heart Disease
