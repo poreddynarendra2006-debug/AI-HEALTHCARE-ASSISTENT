@@ -1,9 +1,13 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import os
 
 # Load model
-model = pickle.load(open("model.pkl", "rb"))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model_path = os.path.join(BASE_DIR, "model.pkl")
+
+model = pickle.load(open(model_path, "rb"))
 
 features = ["fever","cough","headache","fatigue","vomiting","diarrhea",
             "body_pain","chills","nausea","weight_loss","high_sugar",
